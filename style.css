@@ -142,7 +142,7 @@ li{
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
   font-size: 11pt;
-  color: #555;
+  color: var(--oxford-blue); /*#555;*/
 }
 
 #main h2 > i{
@@ -152,7 +152,7 @@ li{
   position: absolute;
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
-  color: #444;
+  color:var(--oxford-blue); /* #444;*/
 }
 
 #main h2::after{ /* extends the decorator line */
@@ -167,6 +167,12 @@ li{
   line-height: 0;
   font-size: 0;
   content: ' ';
+}
+
+#main a {
+  color: var(--oxford-blue);
+  text-decoration: none;
+  font-style: italic;
 }
 
 /**** minor tweaks on the icon fonts ****/
@@ -270,7 +276,7 @@ li{
 }
 
 .details header{
-  color: #000;
+  color: var(--oxford-blue); /* #000;*/
 }
 
 .details h3{
