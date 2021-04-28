@@ -9,7 +9,7 @@ Adaptation du modèle de CV proposé par Min-Zhong "John" Lu's (projet github ht
 
 Pour imprimer le CV, utilisez plutôt Chrome qui garde les liens dans le PDF (les liens sont perdus dans Firefox). 
 
-Voir un [exemple de rendu pdf](https://gitlab.com/gillou/cv-print-version-html/-/blob/master/cv-html-exemple.pdf) dans ce dépot.
+Voir un [exemple de rendu pdf](https://github.com/giloop/cv-print-html/blob/master/cv-html-exemple.pdf) dans ce dépot.
 
 # html-resume
 
