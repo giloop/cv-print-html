@@ -5,8 +5,11 @@ Adaptation du modèle de CV proposé par Min-Zhong "John" Lu's (projet github ht
 - Page en A4 et unité en cm 
 - Ajout de couleur
 - Ajout d'un style .keywords pour associer des mots clefs aux projets
+- Suppression de la dépendance au submodule (utilisation des CDN FontAwesome & Normalize.css)
 
 Pour imprimer le CV, utilisez plutôt Chrome qui garde les liens dans le PDF (les liens sont perdus dans Firefox). 
+
+Voir un [exemple de rendu pdf](https://gitlab.com/gillou/cv-print-version-html/-/blob/master/cv-html-exemple.pdf) dans ce dépot.
 
 # html-resume
 
