@@ -15,6 +15,7 @@
   --decorator-horizontal-margin: 0.5cm;
 
   --sidebar-horizontal-padding: 0.5cm;
+  --sidebar-vertical-padding: 0.3cm;
 
   /* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
@@ -385,7 +386,7 @@ li{
 }
 
 .side-block{
-  margin-top: 0.5in; 
+  margin-top: 1cm; 
 }
 
 #sites ul, #contact ul{
@@ -409,7 +410,7 @@ li{
 
 #disclaimer{
   position: absolute;
-  bottom: var(--sidebar-horizontal-padding);
+  bottom: var(--sidebar-vertical-padding);
   right: var(--sidebar-horizontal-padding);
   font-size: 7.5pt;
   font-style: italic;
@@ -427,4 +428,8 @@ li{
 
 #references img {
   width:100%;
+}
+
+.txt-right {
+  text-align: right;
 }
